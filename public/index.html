@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<style>
+		.input::placeholder{
+			color:#EDF2F7;
+			text-shadow: -1px -1px 2px rgba(255,255,255,0.05), 1px 1px 2px rgba(0,0,0,0.8);
+		}
+		.input{
+			color:#EDF2F7;
+			text-shadow: -1px -1px 2px rgba(255,255,255,0.05), 1px 1px 2px rgba(0,0,0,0.8);
+		}
+		
+	
+
+	</style>
+</head>
+<body class="bg-gray-200 flex items-center justify-center h-screen">
+	<div class="bg-gray-200 shadow-myShadow rounded-xl text-center hover:shadow-myShadowHover">
+		<div class="w-32 m-auto pt-5">
+			<img src="/img/logo-webtech.png" alt="mylogo">			
+		</div>
+		<div class="text-center text-sm font-light py-3">
+			<h1>Using Tailwindcss and Laravel-mix</h1>
+		</div>
+		<div class="px-auto mx-16 my-3">			
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" class="input" placeholder="example@gmail.com">		
+		</div>
+		<div class="px-auto mx-16 my-3">				
+			<label for="password">Password</label>
+			<input type="password" class="input" name="password" id="password" placeholder="*******">			
+		</div>
+		<div class="flex justify-center pt-5 pb-3">
+			<input class="bg-green-500 text-white py-2 px-16 rounded-full outline-none focus:shadow-inputShadow focus:bg-red-700 shadow-inputShadowFocus" type="submit" value="Sign In">
+		</div>
+		<div class="text-center pb-2">					
+			<a href="register.html" class="text-sm font-light outline-none href">Register a new membership</a>	
+		</div>
+	</div>	
+</body>
+</html>

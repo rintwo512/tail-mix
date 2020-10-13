@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+	<style>
+		.inputTwo::placeholder,
+		.btn,
+		.inputTwo{
+			color: #000;
+			text-shadow: -1px -1px 2px rgba(255,255,255,0.05), 
+			1px 1px 2px rgba(0,0,0,0.8);
+			
+		}
+	
+	</style>
+
+</head>
+<body class="bg-myDark flex items-center justify-center h-screen">
+	<div class="bg-myDark rounded-xl shadow-myShadowTwo">
+		<div class="w-32 m-auto pt-5">
+			<img src="/img/logo-webtech.png" alt="logo">
+		</div>
+		<div class="text-center text-lg font-light py-3 text-white opacity-50">
+			<h1>Using Tailwindcss and Laravel-Mix</h1>
+		</div>
+		<div class="px-auto mx-12 my-3">						
+			<input type="text" class="inputTwo" placeholder="Name">
+			<input type="email" class="inputTwo" placeholder="Username">			
+			<input type="password" class="inputTwo" placeholder="Password">	
+			<input type="password" class="inputTwo" placeholder="Retype Password">	
+		</div>
+		<div class="flex justify-center">
+			<button type="submit"  class="bg-myDark text-white text-xl px-16 py-2 mt-3 shadow-myShadowTwo rounded-full focus:outline-none tracking-widest hover:shadow-inputShadowTwo btn">Submit</button>
+		</div>
+		<div class="text-center my-3 font-light text-white opacity-50 text-sm hover:text-red-700">
+			<a href="index.html" class="">Please login if you already have an account</a>
+		</div>
+
+	</div>
+	
+</body>
+</html>
